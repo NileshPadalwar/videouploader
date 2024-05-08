@@ -1,0 +1,8 @@
+<ul>
+    <li *ngFor="let video of videos">
+      {{ video.name }}
+      
+      <button (click)="playVideo(video)">Play</button>
+      <button (click)="deleteVideo(video)">Delete</button>
+    </li>
+  </ul>

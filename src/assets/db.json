@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "vid": [
+    {
+      "id": "89c2",
+      "url": "http://localhost:3000/vid",
+      "body": {},
+      "reportProgress": false,
+      "withCredentials": false,
+      "responseType": "json",
+      "method": "POST",
+      "headers": {
+        "normalizedNames": {},
+        "lazyUpdate": null,
+        "headers": {}
+      },
+      "context": {
+        "map": {}
+      },
+      "params": {
+        "updates": null,
+        "cloneFrom": null,
+        "encoder": {},
+        "map": null
+      },
+      "urlWithParams": "http://localhost:3000/vid"
+    }
+  ]
+}

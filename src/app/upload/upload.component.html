@@ -1,0 +1,7 @@
+<form (ngSubmit)="uploadVideo()" #uploadForm="ngForm">
+    <input type="file" (change)="onFileSelected($event)" name="video" accept="video/*">
+    <button type="submit" [disabled]="!uploadForm.valid">Upload</button>
+    <div *ngIf="uploadProgress !== null">
+      <progress [value]="uploadProgress" max="100"></progress>
+    </div>
+  </form>

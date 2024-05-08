@@ -1,0 +1,23 @@
+{
+    "vid":[
+    
+    {
+      "id": 1,
+      "name": "video1.mp4",
+      "type": "mp4",
+      "size": 10240000
+    },
+    {
+      "id": 2,
+      "name": "video2.mov",
+      "type": "mov",
+      "size": 15360000
+    },
+    {
+      "id": 3,
+      "name": "video3.avi",
+      "type": "avi",
+      "size": 5120000
+    }
+  ]
+}
